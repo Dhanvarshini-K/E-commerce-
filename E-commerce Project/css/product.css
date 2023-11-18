@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+   
+}
+.header_main{
+    background-color: #F3F5F7;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.header_icons{
+    display: flex;
+    gap: 30px;
+}
+.header_content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 0 450px;
+}
+.shopnow_link{
+    display: flex;
+    border-bottom: 1.5px solid #377DFF;
+  
+}
+.shopnow_link a{
+    color: #377DFF;
+    text-decoration: none;
+}
+.sub_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    cursor: pointer;
+}
+.sub_header > nav{
+    display: flex;
+    gap: 40px;
+}
+nav select,
+nav a{
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    color:#6C7275 ;
+    text-decoration: none;
+}
+nav b{
+color:#0d0d0d;
+}
+.navigation_page,
+.product_details{
+   background-color: white;
+   padding: 10px 40px;
+}
+.horizontal_emptyline{
+    width: 100%;
+    height: .5px;
+    background-color: lightgray;
+}
+.product_images{
+    display: grid;
+    grid-template-columns: 250px 90px;
+    gap: 20px;
+}
+.product_images img{
+    width: 250px;
+}
+.product_details{
+    display: flex;
+  gap: 190px;
+}
+.reviews,
+.traytable_price,
+.choose_color,
+.add_items,
+.wishlist_button button
+.questions,
+.reviews_list{
+    display: flex;
+    gap: 10px;
+}
+.product_details p{
+    color: #6C7275;
+    font-size: 15px;
+}
+.product_content{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.tray_table_content,
+.product_measurements,
+.additional_info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+del{
+    color: #6C7275;
+}
+.empty_traytable_line{
+    width: 100%;
+    height: .5px;
+    background-color: lightgrey;
+}
+.add_items{
+    background-color: #F5F5F5;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.add_items button{
+    background: none;
+    border: none;
+    width: 30px;
+}
+.add_items h6,
+.packaging h6{
+    font-size: 15px;
+}
+.wishlist_button button {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    padding: 5px 10px;
+    width: 250px;
+}
+.adding_category{
+    display: flex;
+    gap: 60px;
+
+}
+.add_to_cart button{
+    width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.add_to_cart  h5{
+    font-size: 15px;
+}
+.sku{
+    display: flex;
+   gap: 80px;
+}
+.category{
+    display: flex;
+    gap: 30px;
+}
+.sku >h6,
+.category >h6{
+    font-size: 13px;
+}
+.info_heading{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.empty_line{
+    width: 100%;
+    height: 1.5px;
+    background-color: grey;
+}
+.additional_info h5{
+    color: grey;
+}
+.details,
+.packaging{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.questions,
+.reviews_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.newarrivals_container{
+    display: flex;
+    padding: 30px 80px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.more_products_link{
+    display: flex;
+    gap: 6px;
+    cursor: pointer;
+}
+.moreproducts_horizontal_line{
+    width: 140px;
+    height: 2px;
+    background-color: black;
+}
+.newarrival_items{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 80px;
+}
+.newarrival_items img{
+    width: 95%;
+}
+.wishlist_image{
+    width: 40px;
+    display: flex;
+}
+.item_offer{
+ position: absolute;
+ top: 20px;
+ left: 30px;
+ display: flex;
+ gap:110px;
+}
+.sofa_container{
+ position: relative;
+}
+.item_discount > h4{
+    background-color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.item_discount > h5{
+    background-color: #38CB89;
+    text-align: center;
+    border-radius: 4px;
+}
+.item_discount{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sofa_content>img,
+.lamp_content>img,
+.tablelamp_content>img,
+.basket_content>img
+{
+    width: 100px;
+}
+.sofa_content,
+.lamp_content,
+.tablelamp_content,
+.basket_content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.price span{
+    color: grey;
+}
+.price{
+    display: flex;
+    gap: 10px;
+}
+
+.empty_division{
+    padding: 30px 80px;
+}
+.container{
+   border-radius: 4px;
+    width: 100%;
+    background-color: grey;
+    height: 4px;
+}
+.level{
+    border-radius: 4px;
+    width: 70%;
+    height: 4px;
+    background-color: black;
+}
+
+.readmore_link img{
+    width: 20px;
+}
+
+.signup_letter > img{
+    width: 100%;
+}
+.email_address{
+    display: flex;
+    flex-direction: column;
+}
+.email_and_signup{
+    display: flex;
+    justify-content: space-between;
+}
+.email_and_signup a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.empty_newsline{
+    width: 400px;
+    height: 1px;
+    background-color: grey;
+}
+.newsletter_content{
+    position: absolute;
+    right: 450px;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 50px;
+}
+.signup_letter{
+    position: relative;
+}
+.newsletter_title{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter_title h2{
+    font-size: 14px;
+}
+.email img{
+    width: 15px;
+}
+.footer_main{
+    background-color: #141718;
+    color: white;
+    padding: 80px 100px 32px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.footer_main  a{
+    color: white;
+    cursor: pointer;
+}
+.footer_quick_links,
+.contact_apps{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.shop_title,
+.navigation_links nav{
+    display: flex;
+    gap: 20px;
+    
+}
+.shop_title{
+    width: 400px;
+}
+.navigation_links nav a{
+    display: flex;
+    gap: 10px;
+}
+.vertical_line{
+    width: 2px;
+    height: 20px;
+    background-color: #6C7275;
+    
+}
+.footer_emptyline{
+    width: 100%;
+    height: 1px;
+    background-color: #6C7275;
+}
+.contact_apps a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.terms_and_condition,
+.apps{
+    display: flex;
+    gap: 20px;
+}
+.email input,
+.email_and_signup button{
+    border: none;
+    background-color: #F2F4F6;
+    outline: none;
+}
